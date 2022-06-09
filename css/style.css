@@ -6,22 +6,33 @@ body {
     color: #516171;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h6 {
     font-weight: 500 !important;
     color: #092032;
+}
+
+h4, h5{
+    font-weight: 500 !important;
+    color: #ffffff;
 }
 
 a{
     color: #092032;
     text-decoration: none;
     transition: all 0.4s ease;
-    font-weight: 500;
+    font-weight: 400;
 
+}
+
+p{
+    text-align: center;
+    padding: 0%;
 }
 
 img {
     width: 100%;
 }
+
 
 section{
     padding-top: 80px;
@@ -49,8 +60,8 @@ section{
 /* NAVBAR */
 .top-nav {
     background-color: #ff4d29;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .top-nav p{
@@ -65,9 +76,27 @@ section{
     vertical-align: middle;
 }
 
+.social-linkss{
+    display: flex;
+}
+
+.social-linkss a{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+    margin: 0 30px;
+    border-radius: 50%;
+
+
+}
+
+
 .social-links a{
-    width: 34px;
-    height: 34px;
+    width: 40px;
+    height: 40px;
     background-color: rgba(255, 255, 255, 0.3);
     display: inline-flex;
     align-items: center;
@@ -80,6 +109,9 @@ section{
     background-color: #ffffff;
     color: #ff4d29;
 }
+
+
+
 .navbar {
     box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08); 
 
@@ -115,19 +147,23 @@ section{
 
 /* slider */
 .slide1 {
-    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.4)), url(../img/4.jpg);
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.4)), url(../img/server\ room.jpg);
 }
 
 .slide2 {
-    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.4)), url(../img/2.jpg);
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.4)), url(../img/software\ devt.png);
 }
 
 .slide3 {
-    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.4)), url(../img/1.jpg);
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.4)), url(../img/software\ devt2.png);
 }
 
 .slide4 {
-    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.4)), url(../img/3.jpg);
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.4)), url(../img/software.png);
+}
+
+.slide5 {
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.4)), url(../img/CONSULTANCY.png);
 }
 
 
@@ -213,10 +249,10 @@ section{
 }
 .project .content {
     position: absolute;
-    width: 100%;
+    width: 90%;
     bottom: 0;
     left: 0;
-    padding: 32px;
+    padding: 10px;
 }
 
 .project h1,
@@ -245,6 +281,8 @@ section{
 .team-member .img-wrapper{
     position: relative;
     overflow: hidden;
+    width: 100%;
+    height: 70%;
 }
 .team-member .overlay {
     position: absolute;
